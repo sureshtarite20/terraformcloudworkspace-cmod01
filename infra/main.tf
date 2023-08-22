@@ -9,10 +9,6 @@ terraform {
 }
 provider "azurerm" {
   features {}
-  tenant_id = var.tenantID
-  subscription_id = var.subscriptionID
-  client_id = var.clientID
-  client_secret = var.clientSecret
 }
 
 module "rg_module" {
