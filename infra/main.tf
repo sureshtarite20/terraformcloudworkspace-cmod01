@@ -10,7 +10,7 @@ terraform {
 provider "azurerm" {
   features {}
 }
-
+#######
 module "rg_module" {
   source                  = "./modules/rg"
   resource_group_name     = var.resource_group_name
